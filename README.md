@@ -12,7 +12,7 @@ Add/edit/delete/task/mark
 
 # Folder Structure
 todo-app
-├── client # React frontend\n
+├── client # React frontend<br>
 │ └── src
 │ ├── components
 │ ├── App.js
