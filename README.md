@@ -11,14 +11,14 @@ A full-stack To-Do List application built using React, Node.js, and MongoDB. Thi
 Add/edit/delete/task/mark
 
 # Folder Structure
-todo-app/
-├── client/ # React frontend
-│ └── src/
-│ ├── components/
+todo-app
+├── client # React frontend
+│ └── src
+│ ├── components
 │ ├── App.js
 │ └── ...
-├── server/ # Express backend
-│ ├── models/
-│ ├── routes/
+├── server # Express backend
+│ ├── models
+│ ├── routes
 │ └── server.js
 ├── README.md
