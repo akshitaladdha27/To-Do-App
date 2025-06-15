@@ -15,15 +15,6 @@ app.use(express.json());
 const taskRoutes = require('./routes/taskroutes');
 app.use('/api/task', taskRoutes);
 
-// Middleware
-app.use(cors());
-app.use(express.json());
-
-app.use(cors({
-  origin: 'http://localhost:3000'
-}));
-
-
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
